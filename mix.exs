@@ -124,7 +124,7 @@ defmodule Antikythera.Mixfile do
       {:file_system  , "0.2.6" , [indirect: true, only: :dev]}, # exsync and mix_test_watch
 
       # my libraries
-      {:mongo, ">= 0.0.0"},
+      {:mongodb, ">= 0.0.0"},
     ]
   end
 
